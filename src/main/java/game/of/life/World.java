@@ -36,7 +36,7 @@ public class World {
 
 	public int addLivingCells(int row, int column) {
 
-		populateWorld();//only works when populated in this function
+		populateWorld();
 
 		// String cell = "*";
 		cellWorld[row][column] = "*";
